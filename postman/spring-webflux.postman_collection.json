@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "0220c2fe-87b0-444e-8d73-2abc97324f4e",
+		"name": "spring-webflux",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1147110"
+	},
+	"item": [
+		{
+			"name": "Get A Stock",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/stocks/google",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"stocks",
+						"google"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Stocks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/stocks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"stocks"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
